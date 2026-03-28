@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/fred/Documents/DEV/PIXLITE -type f -name .*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src=false --import-alias \"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest pixlite --typescript --tailwind --eslint --app --src=false --import-alias \"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest pixlite --typescript --tailwind --eslint --app --src=false --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(yes \"\")",
+      "Bash(npx create-next-app@latest pixlite --typescript --tailwind --eslint --app --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(cp -r pixlite/.git .)",
+      "Bash(cp pixlite/AGENTS.md pixlite/CLAUDE.md pixlite/README.md pixlite/eslint.config.mjs pixlite/next-env.d.ts pixlite/next.config.ts pixlite/package-lock.json pixlite/package.json pixlite/postcss.config.mjs pixlite/tsconfig.json .)",
+      "Bash(cp -r pixlite/app .)",
+      "Bash(cp -r pixlite/public .)",
+      "Bash(cp -r pixlite/node_modules .)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init -y --defaults)"
+    ]
+  }
+}
