@@ -1,4 +1,4 @@
-# pixlite.io — Product Requirements Document
+npm# pixlite.io — Product Requirements Document
 
 > **Version:** 2.0.0 · **Date:** March 2026 · **Status:** Active Development  
 > **Domain:** pixlite.io · **Stack:** Next.js 15 · **Model:** Free Forever, No Login
@@ -540,18 +540,18 @@ These are potential future revenue streams that do **not** compromise the free t
 
 ### Phase 1 — MVP (Weeks 1–6)
 
-- [ ] Drag-and-drop upload zone (single image mode)
-- [ ] Single / Batch mode toggle (max 8 images)
-- [ ] JPEG, PNG, WebP encode/decode via Canvas API (WASM in Phase 2)
-- [ ] Quality slider with real-time preview
-- [ ] Basic resize — custom W × H with aspect ratio lock
-- [ ] Before/after comparison slider
-- [ ] File size reduction stats bar
-- [ ] Download gate modal (enforced before new upload)
-- [ ] Batch thumbnail strip with per-image download tracking
-- [ ] 10 core social media presets (Instagram, X, LinkedIn)
-- [ ] Marketing landing page with SEO meta
-- [ ] 3× `/tools/*` pages for SEO
+- [x] Drag-and-drop upload zone (single image mode)
+- [x] Single / Batch mode toggle (max 8 images)
+- [x] JPEG, PNG, WebP encode/decode via Canvas API (WASM in Phase 2)
+- [x] Quality slider with real-time preview
+- [x] Basic resize — custom W × H with aspect ratio lock
+- [x] Before/after comparison slider
+- [x] File size reduction stats bar
+- [x] Download gate modal (enforced before new upload)
+- [x] Batch thumbnail strip with per-image download tracking
+- [x] 10 core social media presets (Instagram, X, LinkedIn)
+- [x] Marketing landing page with SEO meta
+- [x] 3× `/tools/*` pages for SEO
 - [ ] Vercel deployment + GitHub CI/CD
 
 ### Phase 2 — Polish (Weeks 7–10)
